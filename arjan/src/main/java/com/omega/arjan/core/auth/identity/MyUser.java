@@ -1,6 +1,6 @@
 package com.omega.arjan.core.auth.identity;
 
-public interface User {
+public interface MyUser {
 
   public String getUserId();
 

@@ -1,3 +1,6 @@
 rootProject.name='OmegaForce'
 include 'xp'
 include 'arjan'
+include 'habbitBackend'
+include 'cadence'
+
