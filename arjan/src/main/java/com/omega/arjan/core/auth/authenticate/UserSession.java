@@ -8,11 +8,10 @@ public interface Session {
   // ClientProvider
   // CredentialManager
   // UserProvider
-  void close();
+  void closeSession();
   <T extends User> T getUser();
   void addAttributes(String key, Object value);
   Object getAttributes(String key);
-
   Object removeAttributes(String key);
 
 }
